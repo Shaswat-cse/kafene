@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page Title and Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kafene Web-App</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <!-- jQuery Library -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script/script.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div id="nav-bar">
+        <div id="logo">
+          <!-- Logo and Brand Name -->
+          <img
+            src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png"
+            alt="Kafene-web-app"
+          />
+          <span>Kafene</span>
+        </div>
+        <!-- Navigation Links -->
+        <nav>
+          <a class="nav-item" href="#">Orders</a>
+          <a class="nav-item" href="#">Products</a>
+          <a class="nav-item" href="#">Users</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <div>
+        <!-- Login Form -->
+        <form id="login-form">
+          <h1>Sign In</h1>
+          <!-- Username Input -->
+          <input
+            id="username"
+            type="text"
+            name="username"
+            placeholder="Enter Username"
+          />
+          <!-- Password Input -->
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Enter Password"
+          />
+          <!-- Login Button -->
+          <input id="login-btn" type="submit" value="Login" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
